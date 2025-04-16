@@ -35,19 +35,19 @@ body {
     text-align: center;
 }
 
-.qr-text p {
+.qr-text p,h1 {
     font-style: normal;
     margin: 0;
 }
 
-.qr-text p:first-of-type {
+.qr-text h1 {
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;
     color: var(--slate-900);
 }
 
-.qr-text p:last-of-type {
+.qr-text p {
     font-weight: 400;
     font-size: 15px;
     line-height: 140%;

@@ -1,11 +1,19 @@
 :root {
-    --slate-300: #D5E1EF;
-    --slate-500: #68778D;
-    --slate-900: #1F314F;
+     /* Colors */
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+
+  /* Typography */
+  --font-family: 'Outfit', sans-serif;
+  --font-size-paragraph: 15px;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
 }
 
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--font-family);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,10 +28,11 @@ body {
     align-items: center;
     padding: 16px 16px 40px;
     gap: 24px;
-    width: 320px;
     box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
     border-radius: 20px;
-    background-color: white;
+    background-color: var(--white);
+    max-width: 320px;
+    width: auto;
 }
 
 .qr-text {
